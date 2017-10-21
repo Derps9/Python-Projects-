@@ -10,3 +10,8 @@ if x == '7 ate 9':
    print('good job')
 if raw_input() == 2:
     print('knock knock')
+a = raw_input('What did the orange say to the banana?')
+if a == 'orange you glad to see me':
+    print ('good job')
+else:
+    print ('lol, you suck')
