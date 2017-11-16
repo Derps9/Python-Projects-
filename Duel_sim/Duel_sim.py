@@ -13,7 +13,7 @@ def help():
     ba- battle command menu
     """
 while True:
-    command=raw_input(>>>)
+    command=raw_input('>>>')
 if command=='e1':
      e1()
      b1()
@@ -23,12 +23,13 @@ if command == 'e2':
 if command =='e3':
     e3()
     b3()
-if command=='e4':
-    e4()
-    b4()
-if command=='e5':
-    e5()
-    b5()
+#if command=='e4':
+#    e4()
+ #   b4()
+#if command=='e5':
+   # e5()
+   # b5()
+#will only do 4 and 5 if i have time lol
 if command=='e':
     quit()
 if command=='w':
@@ -45,7 +46,7 @@ def e2():
     print'HAS 7HP'
 
 def w():
-print"""These are the weapons that you can choose from
+    print"""These are the weapons that you can choose from
     1. Sword
     2. Spear
     3. Staff
@@ -63,6 +64,22 @@ def ba():
     st- stab does 7 dmg 
 """
 
-def 
+def b1():
+    pass
 
- 
+
+def b2():
+    pass
+
+
+def b3():
+   print"""
+    You walk into the arena and you wield your weapon
+get stabbed ammediatly"""
+
+
+
+
+def kys():
+    while True:
+        print'Pls Consider suicide'
