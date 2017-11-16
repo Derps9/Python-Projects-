@@ -1,3 +1,4 @@
+
 print"""
     WELCOME TO 1V1
     DUELING SIM
@@ -14,15 +15,15 @@ def help():
     """
 while True:
     command=raw_input('>>>')
-if command=='e1':
+    if command=='e1':
      e1()
      b1()
-if command == 'e2':
-    e2()
-    b2()
-if command =='e3':
-    e3()
-    b3()
+    if command == 'e2':
+     e2()
+     b2()
+    if command =='e3':
+     e3()
+     b3()
 #if command=='e4':
 #    e4()
  #   b4()
@@ -30,14 +31,14 @@ if command =='e3':
    # e5()
    # b5()
 #will only do 4 and 5 if i have time lol
-if command=='e':
-     quit()
-if command=='w':
-    w()
-if command=='ba':
-    ba()
-if command=='help':
-    help()
+    if command=='e':
+         quit()
+    if command=='w':
+         w()
+    if command=='ba':
+        ba()
+    if command=='help':
+        help()
 
 def e1():
     print'ENEMY NAME\n Jack\n Difficulty\n Easy\n'
