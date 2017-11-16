@@ -31,11 +31,13 @@ if command =='e3':
    # b5()
 #will only do 4 and 5 if i have time lol
 if command=='e':
-    quit()
+     quit()
 if command=='w':
     w()
 if command=='ba':
     ba()
+if command=='help':
+    help()
 
 def e1():
     print'ENEMY NAME\n Jack\n Difficulty\n Easy\n'
