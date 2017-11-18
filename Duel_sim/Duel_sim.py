@@ -115,4 +115,6 @@ while True:
         sword()
     if command == 'boi'
         pass
+    if command =='kys'
+        kys()
 
