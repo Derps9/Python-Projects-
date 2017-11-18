@@ -2,7 +2,7 @@
 
 print """   WELCOME TO 1V1\n    DUELING SIM\n   ############"""
 def help():
-    print """    These are the Commands you can execute\n    e,q- exit game\n    w- choose your weapon\n    e1-e5 choose your opponent\n \
+    print """    These are the Commands you can execute\n    e,q- exit game\n    w- choose your weapon\n    enemy1-3 choose your opponent\n \
    b- start the battle\n    ba- battle command menu"""
 
 def spear():
@@ -34,10 +34,8 @@ def w():
     3. Staff
     4. Mace """
 def sword():
-    print"""
-    This is the sword 
-    this is one of the weapons you can use in 
-    your battle scenarios"""
+    namewep4= 'sword'
+    print namewep4
 
 def ba():
     print"""
@@ -52,20 +50,40 @@ def b1():
 
 def b2():
     pass
-
 def b3():
     for i in range(10):
-     battle_command1=raw_input('>>>')
-     if battle_command1=='u':
-        print'you have done 3 dmg with' + spear()
-        print'Your enemy staggers and dies'
-    if battle_command=='st':
-        print'you have done 7 damage with' + spear()
-        print'your enemy shreiks and dies squirming on the floor'
-    if battle_command=='sl':
-        print'you have done 4 damage with' + spear()
-        print' your enemy grasps his side as he falls to the ground'
-                
+        battle_command=raw_input('>>>')
+        if battle_command=='u':
+            print'you have done 3 dmg with' + spear()
+            print'Your enemy staggers and dies'
+            victory_credits() 
+        if battle_command=='st':
+            print'you have done 7 damage with' + spear()
+            print'your enemy shreiks and dies squirming on the floor'
+            victory_credits()
+        if battle_command=='sl':
+            print'you have done 4 damage with' + spear()
+            print' your enemy grasps his side as he falls to the ground'
+            victory_credits
+        if battle_command=='d':
+            print'Your enemy is cut in half you win the battle with' +spear()
+            victory_credits()
+        if battle_command=='u1':
+            print'you smack him in the legs he falls and dies' + staff()
+            print' dealing 3 damage'
+            victory_credits()
+        if battle_command=='st1':
+            print'you stab your enemy with'+ staff()
+            print' he throws up his guts everywhere \n you win the match by dealing 7 damage'
+            victory_credits() 
+        if battle_command=='sl1':
+            print 'you smash his ribs and he crumples to the ground you grasp your' + staff()
+            print ' as he falls to the ground dealing 4 damage'
+            victory_credits()
+        if battle_command== 'd1':
+            print' your enemy blocks your downward strike but you counter with another and you kill him dealing 5 damage with '+ sword()
+            victory_credits()
+
 def kys():
     while True:
         print'Pls Consider suicide'
@@ -93,7 +111,7 @@ while True:
      enemy2()
      b2()
 
-    if command=='enenmy3':
+    if command=='enemy3':
      enemy3()
      b3()
     
@@ -115,6 +133,7 @@ while True:
 #will only do 4 and 5 if i have time lol
 
     if command=='e' or command=='q':
+
          exit()
     if command=='w':
          w()
