@@ -156,3 +156,5 @@ while True:
         kys()
     if command=='kys' or command=='boi':
         kys()
+    else:
+        print 'Error: invalid command please type help to get info on the program'
