@@ -1,0 +1,5 @@
+# 8 ball script
+import random
+x= raw_input(' please shake the magic 8 ball')
+
+
