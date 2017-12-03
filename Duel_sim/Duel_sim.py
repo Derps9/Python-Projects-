@@ -84,7 +84,7 @@ def b3():
         if battle_command== 'd1':
             print' your enemy blocks your downward strike but you counter with another and you kill him dealing 5 damage with your sword'
             victory_credits()
-        if batle_command== 'u1':
+        if battle_command== 'u1':
             print' your enemy gets hit and falls to the ground as you cut him in half'
             print' dealing 3 damage with your sword'
             victory_credits
@@ -109,6 +109,8 @@ def victory_credits():
     x=raw_input('are you sure you want to quit')
     if x=='y' or 'yes':
         exit()
+    if x == 'n' or 'no'
+        help()
 
 while True:
     command=raw_input('>>>')
