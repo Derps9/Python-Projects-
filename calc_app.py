@@ -22,9 +22,14 @@ def area():
 
     print ' the area of your square is ' +str(area)
 
+def kec():
+    mass= float(raw_input('enter the mass of the object'))
+    velocity= float(raw_input('enter your velocity of the object'))
+    kinetic= mass * velocity**2 /2
+    print ' your velocity is ' +str(kinetic)
 
 def menu():
-print """ Welcome to the start menu
+    print """ Welcome to the start menu
               Commands you can do are
               1. help- returns to the menu
               2. bmi- calculates your bmi
@@ -39,21 +44,21 @@ print """ Welcome to the start menu
 
           
 while True:
-    menu=raw_input('>>>')
-    if menu == 'help' or 'h':
+    command=raw_input('>>>')
+    if command == 'help':
         menu()
 #will maybe add more calculators/solvers
-     if menu == 'bmi' or 'BMI':
-        bmi()
-    if menu == 'area' or 'Area':
-        area()
-    if menu == 'kec' or 'Kec':
-        kec()
-    if menu ==  'mult' or 'Mult':
-        mult()
-    if menu == 'add' or 'Add':
-        add()
-    if menu == 'div' or 'Div':
-        div()
-    if menu == 'sub' or 'Sub':
-        sub()
+    if command == 'bmi':
+     bmi()
+    if command == 'area':
+     area()
+    if command == 'kec':
+     kec()
+    if command ==  'mult':
+     mult()
+    if command == 'add':
+     add()
+    if command == 'div':
+     div()
+    if command == 'sub':
+     sub()
