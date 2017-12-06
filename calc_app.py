@@ -28,6 +28,32 @@ def kec():
     kinetic= mass * velocity**2 /2
     print ' your velocity is ' +str(kinetic)
 
+def add():
+    first=float(raw_input('enter your first number'))
+    second=float(raw_input('enter your second number'))
+    answer= first + second
+    print answer
+def mult(): 
+    first=float(raw_input('enter your first number'))
+    second=float(raw_input('enter your second number'))
+    answer= first *  second
+    print answer
+def div():
+    first=float(raw_input('enter your first number'))
+    second=float(raw_input('enter your second number'))
+    answer= first /  second
+    print answer
+def sub():
+    first=float(raw_input('enter your first number'))
+    second=float(raw_input('enter your second number'))
+    answer= first -  second
+    print answer
+def pe():
+    mass= float(raw_input('enter your mass here '))
+    height= float(raw_input('enter your height here'))
+
+    poten= mass * 96.04 * height
+    print poten
 def menu():
     print """ Welcome to the start menu
               Commands you can do are
@@ -38,7 +64,9 @@ def menu():
               5. Mult- a way to multiply 2 numbers
               6. add- a way to add 2 numbers
               7. div- a way to divide 2 numbers
-              8. sub- a way to subtract 2 numbers"""
+              8. sub- a way to subtract 2 numbers
+              9. pe- a way to find the gravitational potential energy
+"""
 
 
 
@@ -62,3 +90,6 @@ while True:
      div()
     if command == 'sub':
      sub()
+    if command == 'pe':
+     pe()
+
