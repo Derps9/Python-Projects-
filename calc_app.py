@@ -72,6 +72,7 @@ def menu():
               8. sub- a way to subtract 2 numbers
               9. pe- a way to find the gravitational potential energy
               10. cir- circumference of a circle
+              11. e- to exit the program
 """
 def credits():
     print' Credits \n made by: Ryan \n of the vsoss company \n version 1.5'
