@@ -54,6 +54,11 @@ def pe():
 
     poten= mass * 96.04 * height
     print poten
+def cir():
+    diameter= float(raw_input('enter your diameter here'))
+    pi=3.14
+    circumference= diameter * pi
+    print circumference
 def menu():
     print """ Welcome to the start menu
               Commands you can do are
@@ -66,8 +71,10 @@ def menu():
               7. div- a way to divide 2 numbers
               8. sub- a way to subtract 2 numbers
               9. pe- a way to find the gravitational potential energy
+              10. cir- circumference of a circle
 """
-
+def credits():
+    print' Credits \n made by: Ryan \n of the vsoss company \n version 1.5'
 
 
           
@@ -75,21 +82,25 @@ while True:
     command=raw_input('>>>')
     if command == 'help':
         menu()
-#will maybe add more calculators/solvers
     if command == 'bmi':
-     bmi()
+        bmi()
     if command == 'area':
-     area()
+        area()
     if command == 'kec':
-     kec()
+        kec()
     if command ==  'mult':
-     mult()
+        mult()
     if command == 'add':
-     add()
+        add()
     if command == 'div':
-     div()
+        div()
     if command == 'sub':
-     sub()
+        sub()
     if command == 'pe':
-     pe()
-
+        pe()
+    if command == 'cir':
+        cir()
+    if command == 'credits':
+        credits()
+    if command == 'e':
+        exit()
