@@ -12,6 +12,26 @@ def bmi():
      print ' get off the bigmacs'
     if bmi <30:
         print ' your pretty good keep it up'
+def ohm1():
+    print'this is to find amps'
+    volts= float(raw_input('enter your voltage here'))
+    resistance= float(raw_input('enter your resistance here'))
+    amps= volts/resistance
+    print amps
+def ohm2():
+    print 'this one finds volts'
+    amps= float(raw_input('this is your amps'))
+    resistance= float(raw_input('this is your resistance'))
+    volts= amps*resistance
+    print volts
+
+
+def ohm3():
+    print'this one finds resistance'
+    volts= float(raw_input('enter your volts here'))
+    amps= float(raw_input('enter your amps here'))
+    resistance= volts/amps
+    print resistance
 
 
 
@@ -73,6 +93,10 @@ def menu():
               9. pe- a way to find the gravitational potential energy
               10. cir- circumference of a circle
               11. e- to exit the program
+              12. ohm1- to find amps
+              13. ohm2- to find voltage
+              14. ohm3- to find resistance
+                WILL ADD MORE IN FUTURE
 """
 def credits():
     print' Credits \n made by: Ryan \n of the vsoss company \n version 1.5'
@@ -105,3 +129,9 @@ while True:
         credits()
     if command == 'e':
         exit()
+    if command == 'ohm1':
+        ohm1()
+    if command == 'ohm2':
+        ohm2()
+    if command == 'ohm3':
+        ohm3()
