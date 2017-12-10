@@ -31,13 +31,13 @@ def Walmart():
     pass
 for i in range(50):
     command= raw_input('>>>')
-    if command='nxtday':
+    if command = 'nxtday':
          Apple()
          Microsoft()
          Amazon()
          Target()
          Walmart()
-    if command='rules':
+    if command = 'rules':
          rules()
 
 
