@@ -99,7 +99,7 @@ def menu():
                 WILL ADD MORE IN FUTURE
 """
 def credits():
-    print' Credits \n made by: Ryan \n of the vsoss company \n version 1.5'
+    print' Credits \n made by: Ryan \n of the vsoss company \n version 1.8'
 
 
           
@@ -135,3 +135,9 @@ while True:
         ohm2()
     if command == 'ohm3':
         ohm3()
+    ##################
+    #WILL ADD MORE IN# 
+    #THE FUTURE THIS #
+    #IS VERSION 1.8  #
+    # MADE BY RYAN   #
+    ##################
