@@ -1,5 +1,5 @@
 import random
-print""" WELCOME TO THE STOCK MARKET EXCHANGE GAME"""
+print""" WELCOME TO THE STOCK MARKET EXCHANGE SIMULATOR"""
 def rules():
     print"""
  you have 50 days to watch the stock prices rise and fall between the different companies you can choose to invest
@@ -16,28 +16,42 @@ def menu():
 def Apple():
     stock=random.randint(1,100)
     if stock >50:
-        print'The stock price has gone up'
+        print'Apple stock price has gone up'
     if stock <50:
-        print' stock has gone down'
+        print'Apple stock has gone down'
 def Microsoft():
-    pass
+    stock=random.randint(1,100)
+    if stock >50:
+        print'Microsoft stock price has gone up'
+    if stock <50:
+        print'Microsoft stock has gone down'
 #make it working for the rest of the companies
-
 def Amazon():
-    pass
+    pass   
 def Target():
     pass
 def Walmart():
     pass
 for i in range(50):
     command= raw_input('>>>')
-    if command = 'nxtday':
-         Apple()
-         Microsoft()
-         Amazon()
-         Target()
-         Walmart()
-    if command = 'rules':
-         rules()
+    if command == 'nxtday':
+        Apple()
+        Microsoft()
+        Amazon()
+        Target()
+        Walmart()
+    if command == 'rules':
+        rules()
+    if command == 'investApple':
+       # investApple()
+        pass
+    if command == 'investMicrosoft':
+        pass
+    if command == 'fullsim':
+        for i in range(50):
+            Apple()
+            Microsoft()
+    if command == 'exit':
+            quit()
 
 
