@@ -25,33 +25,73 @@ def Microsoft():
         print'Microsoft stock price has gone up'
     if stock <50:
         print'Microsoft stock has gone down'
-#make it working for the rest of the companies
 def Amazon():
-    pass   
+    stock=random.randint(1,100)
+    if stock >50:
+        print'Amazon stock price has gone up'
+    if stock <50:
+        print'Amazon stock has gone down'
 def Target():
-    pass
+    stock=random.randint(1,100)
+    if stock >50:
+        print'Target stock price has gone up'
+    if stock <50:
+        print'Target stock has gone down'
 def Walmart():
-    pass
-for i in range(50):
-    command= raw_input('>>>')
-    if command == 'nxtday':
-        Apple()
-        Microsoft()
-        Amazon()
-        Target()
-        Walmart()
-    if command == 'rules':
-        rules()
-    if command == 'investApple':
-       # investApple()
-        pass
-    if command == 'investMicrosoft':
-        pass
-    if command == 'fullsim':
-        for i in range(50):
+    stock=random.randint(1,100)
+    if stock >50:
+        print'Walmart stock price has gone up'
+    if stock <50:
+        print'Walmart stock has gone down'
+def credits():
+    print"""
+        CREDITS
+        MADE BY: RYAN
+         FROM THE 
+        VSOSS TEAM"""
+def start():
+    for i in range(50):
+        command= raw_input('>>>')
+        if command == 'nxtday':
             Apple()
             Microsoft()
-    if command == 'exit':
+            Amazon()
+            Target()
+            Walmart()
+        if command == 'rules':
+            rules()
+        if command == 'investApple':
+        # investApple()
+            pass
+        if command == 'investMicrosoft':
+            pass
+        if command ==  'investTarget':
+            pass
+        if command == 'investAmazon':
+            #investAmazon()
+            pass
+        if command == ' investWalmart':
+            #investWalmart()
+            pass
+        if command == 'fullsim':
+            for i in range(50):
+                Apple()
+                Microsoft()
+                Amazon()
+                Walmart()
+                Target()
+        if command == 'exit':
             quit()
-
-
+        if command == 'credits':
+            credits()
+for i in range(10000):
+    command1 = raw_input('>>>')
+    if command1 == 'start':
+        start()
+    if command1 ==  'rules':
+        rules()
+    if command1 == 'menu':
+        menu()
+    if command1 ==  'credits':
+        credits()
+print'this is the menu'
