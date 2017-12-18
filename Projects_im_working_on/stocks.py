@@ -49,6 +49,10 @@ def credits():
         MADE BY: RYAN
          FROM THE 
         VSOSS TEAM"""
+def applestock()
+    pass
+    #add stuff to change the failure values
+
 def start():
     for i in range(50):
         command= raw_input('>>>')
@@ -61,18 +65,20 @@ def start():
         if command == 'rules':
             rules()
         if command == 'investApple':
-        # investApple()
-            pass
+            applestock()
+
         if command == 'investMicrosoft':
-            pass
+            microsoftstock()
+
         if command ==  'investTarget':
-            pass
+            targetstock()
+
         if command == 'investAmazon':
-            #investAmazon()
-            pass
+            amazonstock()
+
         if command == ' investWalmart':
-            #investWalmart()
-            pass
+            walmartstock()
+
         if command == 'fullsim':
             for i in range(50):
                 Apple()
