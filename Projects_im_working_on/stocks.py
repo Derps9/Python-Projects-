@@ -49,7 +49,7 @@ def credits():
         MADE BY: RYAN
          FROM THE 
         VSOSS TEAM"""
-def applestock()
+def applestock():
     pass
     #add stuff to change the failure values
 
