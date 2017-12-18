@@ -51,8 +51,6 @@ def credits():
         VSOSS TEAM"""
 def applestock():
     pass
-    #add stuff to change the failure values
-
 def start():
     for i in range(50):
         command= raw_input('>>>')
