@@ -98,4 +98,4 @@ for i in range(10000):
         menu()
     if command1 ==  'credits':
         credits()
-print'this is the menu'
+
