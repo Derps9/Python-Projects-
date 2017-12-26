@@ -51,6 +51,15 @@ def credits():
         VSOSS TEAM"""
 def applestock():
     pass
+def amazonstock():
+    pass
+def walmartstock():
+    pass
+def targetstock():
+    pass
+def microsoft():
+    pass
+
 def start():
     for i in range(50):
         command= raw_input('>>>')
