@@ -20,7 +20,8 @@ Notes= while True:
     note = raw_input('enter note letter here:'):
         if note == 'c':
             pass
-       ####ADD SOUNDS TO THE IF STATEMENTS#### 
+    #ALSO ADD MORE OCTAVES#   
+    ####ADD SOUNDS TO THE IF STATEMENTS#### 
         if note == 'd':
             pass
         if note == 'e':
