@@ -79,6 +79,12 @@ def cir():
     pi=3.14
     circumference= diameter * pi
     print circumference
+def freq():
+    velocity = float(raw_input('enter your velocity here'))
+    wavelength = float(raw_input('enter your wavelength here'))
+    frequency = velocity/wavelength
+    print frequency
+
 def menu():
     print """ Welcome to the start menu
               Commands you can do are
@@ -105,6 +111,8 @@ def credits():
           
 while True:
     command=raw_input('>>>')
+    if command == 'freq':
+        freq()
     if command == 'help':
         menu()
     if command == 'bmi':

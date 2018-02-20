@@ -1,4 +1,5 @@
-import os
+import math
+import pyaudio
 print '-----WELCOME TO VSOSS TUNER VERSION 0.1-----'
 
 def help():
@@ -33,3 +34,10 @@ Notes= while True:
             pass
         if note == 'b':
             pass
+def notehelp()
+    print""""
+    1. c is at 261.63 Hz
+    2. d is at 293.655 Hz
+    3. e is at 329.628 Hz
+    4. f is at 349.228 Hz
+    5. 
